@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/chergert/gnome-text-editor/"
 "issues\n"
 "POT-Creation-Date: 2024-05-02 22:56+0000\n"
-"PO-Revision-Date: 2024-05-03 15:16+0200\n"
+"PO-Revision-Date: 2024-05-06 17:16+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nb\n"
@@ -24,175 +24,185 @@ msgstr ""
 #: data/org.gnome.TextEditor.appdata.xml.in.in:7
 #: src/editor-application-actions.c:201
 msgid "The GNOME Project"
-msgstr ""
+msgstr "GNOME prosjektet"
 
 #: data/org.gnome.TextEditor.appdata.xml.in.in:12
 #: data/org.gnome.TextEditor.desktop.in.in:10
 #: data/org.gnome.TextEditor.desktop.in.in:11
 #: src/editor-application-actions.c:199 src/editor-window.c:1314
 msgid "Text Editor"
-msgstr ""
+msgstr "Tekstredigering"
 
 #: data/org.gnome.TextEditor.appdata.xml.in.in:14
 msgid "Edit text files"
-msgstr ""
+msgstr "Vis og rediger tekstfiler"
 
 #: data/org.gnome.TextEditor.appdata.xml.in.in:16
 msgid ""
 "GNOME Text Editor is a simple text editor focused on a pleasing default "
 "experience."
 msgstr ""
+"GNOME tekstredigering er et enkelt redigeringsprogram med fokus på en "
+"fornøyelig opplevelse."
 
 #: data/org.gnome.TextEditor.desktop.in.in:4
 msgid "write;notepad;"
-msgstr ""
+msgstr "skrive;notisblokk;"
 
 #: data/org.gnome.TextEditor.desktop.in.in:12
 msgid "View and edit text files"
-msgstr ""
+msgstr "Vis og rediger tekstfiler"
 
 #: data/org.gnome.TextEditor.desktop.in.in:22
 msgid "New Window"
-msgstr ""
+msgstr "Nytt vindu"
 
 #: data/org.gnome.TextEditor.gschema.xml:16
 msgid "Auto Save Delay"
-msgstr ""
+msgstr "Forsinkelse for autolagring"
 
 #: data/org.gnome.TextEditor.gschema.xml:17
 msgid "The delay in seconds to wait before auto-saving a draft."
-msgstr ""
+msgstr "Forsinkelsen i sekunder før autolagring av utkast."
 
 #: data/org.gnome.TextEditor.gschema.xml:26
 msgid "Style Variant"
-msgstr ""
+msgstr "Stilvariant"
 
 #: data/org.gnome.TextEditor.gschema.xml:27
 msgid ""
 "Use the light or dark variant of the GTK theme and/or GtkSourceView style "
 "scheme."
 msgstr ""
+"Bruk den lyse eller mørke varianten av GTK temaet og eller GtkSourceView "
+"stilordningen."
 
 #: data/org.gnome.TextEditor.gschema.xml:35
 msgid "Indentation Style"
-msgstr ""
+msgstr "Stil for innrykk"
 
 #: data/org.gnome.TextEditor.gschema.xml:36
 msgid "If the editor should insert multiple spaces characters instead of tabs."
-msgstr ""
+msgstr "Om appen skal sette inn flere mellomrom i stedet for tabulatorer."
 
 #: data/org.gnome.TextEditor.gschema.xml:40
 msgid "Auto Indent"
-msgstr ""
+msgstr "innrykk"
 
 #: data/org.gnome.TextEditor.gschema.xml:41
 msgid "Automatically indent new lines copying the previous line's indentation."
 msgstr ""
+"Automatisk indentering av ny linje ved kopiering av forrige linjes "
+"indentering."
 
 #: data/org.gnome.TextEditor.gschema.xml:46
 msgid "Tab Width"
-msgstr ""
+msgstr "Tabulatorbredde"
 
 #: data/org.gnome.TextEditor.gschema.xml:47
 msgid "The number of spaces represented by a tab."
-msgstr ""
+msgstr "Antall mellomrom representert av en tabulator."
 
 #: data/org.gnome.TextEditor.gschema.xml:52
 msgid "Indent Width"
-msgstr ""
+msgstr "Indenteringsbredde"
 
 #: data/org.gnome.TextEditor.gschema.xml:53
 msgid "The number of spaces to indent or -1 to use tab-width."
-msgstr ""
+msgstr "Antall mellomrom for indentering eller -1 for tabulatorbredde."
 
 #: data/org.gnome.TextEditor.gschema.xml:57
 msgid "Show Line Numbers"
-msgstr ""
+msgstr "Vis linjenummer"
 
 #: data/org.gnome.TextEditor.gschema.xml:58
 msgid "If line numbers should be displayed next to each line."
-msgstr ""
+msgstr "Om linjenummer skal vises ved siden av hver linje."
 
 #: data/org.gnome.TextEditor.gschema.xml:62
 msgid "Show Right Margin"
-msgstr ""
+msgstr "Vis høyre marg"
 
 #: data/org.gnome.TextEditor.gschema.xml:63
 msgid "If a margin line should be displayed on the right of the editor."
-msgstr ""
+msgstr "Om høyre marg skal vises i redigeringsvinduet."
 
 #: data/org.gnome.TextEditor.gschema.xml:68
 msgid "Right Margin Position"
-msgstr ""
+msgstr "Plassering av høyre marg"
 
 #: data/org.gnome.TextEditor.gschema.xml:69
 msgid ""
 "The position in characters at which the right margin should be displayed."
-msgstr ""
+msgstr "Posisjonen i forhold til tegnet hvor høyre marg skal vises."
 
 #: data/org.gnome.TextEditor.gschema.xml:73
 msgid "Show Overview Map"
-msgstr ""
+msgstr "Vis oversiktskart"
 
 #: data/org.gnome.TextEditor.gschema.xml:74
 msgid ""
 "If enabled, an overview map of the file will be displayed to the side of the "
 "editor."
 msgstr ""
+"Hvis aktivert så vil et oversiktskart over filen vises på siden av "
+"visningsområdet."
 
 #: data/org.gnome.TextEditor.gschema.xml:78
 msgid "Show Background Grid"
-msgstr ""
+msgstr "Vis rutenett i bakgrunnen"
 
 #: data/org.gnome.TextEditor.gschema.xml:79
 msgid "If enabled, a blueprint style grid is printed on the editor background."
-msgstr ""
+msgstr "Hvis aktivert så vil et blåkopi rutenett vises i bakgrunnen."
 
 #: data/org.gnome.TextEditor.gschema.xml:83
 msgid "Highlight current line"
-msgstr ""
+msgstr "Uthev gjeldende linje"
 
 #: data/org.gnome.TextEditor.gschema.xml:84
 msgid "If enabled, the current line will be highlighted."
-msgstr ""
+msgstr "Hvis aktivert så vil gjeldende linje være uthevet."
 
 #: data/org.gnome.TextEditor.gschema.xml:88
 msgid "Text Wrapping"
-msgstr ""
+msgstr "Tekstbryting"
 
 #: data/org.gnome.TextEditor.gschema.xml:89
 msgid "If text should be wrapped."
-msgstr ""
+msgstr "Om tekst skal brytes."
 
 #: data/org.gnome.TextEditor.gschema.xml:93
 msgid "Use System Font"
-msgstr ""
+msgstr "Følg systemets skrifttype"
 
 #: data/org.gnome.TextEditor.gschema.xml:94
 msgid "If the default system monospace font should be used."
-msgstr ""
+msgstr "Om systemets standard \"monospace\" skrifttype skal brukes."
 
 #: data/org.gnome.TextEditor.gschema.xml:98
 msgid "Custom Font"
-msgstr ""
+msgstr "Tilpasset skrifttype"
 
 #: data/org.gnome.TextEditor.gschema.xml:99
 msgid "A custom font to use in the editor."
-msgstr ""
+msgstr "En tilpasset skrifttype for bruk i editoren."
 
 #: data/org.gnome.TextEditor.gschema.xml:103
 msgid "Style Scheme"
-msgstr ""
+msgstr "Stilutvalg"
 
 #: data/org.gnome.TextEditor.gschema.xml:104
 msgid ""
 "The style scheme to use by the editor. It may translate this into a dark "
 "format when available."
 msgstr ""
+"Hvilket stilutvalg som skal brukes av editoren. Den kan bli oversatt til en "
+"mørk skrifttype hvis tilgjengelig."
 
 #: data/org.gnome.TextEditor.gschema.xml:108
 msgid "Discover File Settings"
-msgstr ""
+msgstr "Oppdag filinnstilinger"
 
 #: data/org.gnome.TextEditor.gschema.xml:109
 msgid ""
