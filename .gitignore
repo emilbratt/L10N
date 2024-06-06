@@ -1,0 +1,5 @@
+# Machine Object - binary data file.
+*.mo
+
+# template files for PO files
+*.pot
