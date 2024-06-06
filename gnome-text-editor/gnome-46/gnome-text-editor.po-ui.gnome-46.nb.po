@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/chergert/gnome-text-editor/"
 "issues\n"
 "POT-Creation-Date: 2024-05-02 22:56+0000\n"
-"PO-Revision-Date: 2024-05-06 17:16+0200\n"
+"PO-Revision-Date: 2024-06-06 14:09+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nb\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.4.4\n"
 
 #. developer_name tag deprecated with Appstream 1.0
 #: data/org.gnome.TextEditor.appdata.xml.in.in:7
@@ -87,7 +87,7 @@ msgstr "Om appen skal sette inn flere mellomrom i stedet for tabulatorer."
 
 #: data/org.gnome.TextEditor.gschema.xml:40
 msgid "Auto Indent"
-msgstr "innrykk"
+msgstr "Autoinnrykk"
 
 #: data/org.gnome.TextEditor.gschema.xml:41
 msgid "Automatically indent new lines copying the previous line's indentation."
@@ -209,184 +209,203 @@ msgid ""
 "If enabled then Text Editor will try to discover file settings from "
 "modelines, editorconfig, or per-language defaults."
 msgstr ""
+"Hvis aktivert så vil editoren prøve å se etter visningsinnstillinger i og "
+"rundt dokumentet."
 
 #: data/org.gnome.TextEditor.gschema.xml:113
 msgid "Automatically check spelling"
-msgstr ""
+msgstr "Automatisk stavekontroll"
 
 #: data/org.gnome.TextEditor.gschema.xml:114
 msgid "If enabled, then Text Editor will check spelling as you type."
-msgstr ""
+msgstr "Hvis aktivert så vil editoren sjekke staving mens du skriver."
 
 #: data/org.gnome.TextEditor.gschema.xml:118
 msgid "Restore session"
-msgstr ""
+msgstr "Gjenopprett økten"
 
 #: data/org.gnome.TextEditor.gschema.xml:119
 msgid "When Text Editor is run, restore the previous session."
-msgstr ""
+msgstr "Når programmet startes, gjenopprett forrige økt."
 
 #: data/org.gnome.TextEditor.gschema.xml:123
 msgid "Recolor Window"
-msgstr ""
+msgstr "Endre farge på vindu"
 
 #: data/org.gnome.TextEditor.gschema.xml:124
 msgid "Use the style-scheme to recolor the application window."
-msgstr ""
+msgstr "Bruk stilutvalget til å endre fargen på programvinduet."
 
 #: data/org.gnome.TextEditor.gschema.xml:132
 msgid "Keybindings"
-msgstr ""
+msgstr "Tastaturbindinger"
 
 #: data/org.gnome.TextEditor.gschema.xml:133
 msgid "The keybindings to use within Text Editor."
-msgstr ""
+msgstr "Tastaturbindinger for bruk i editoren."
 
+# Står mellom å bruke en av disse 3
+# - Lagringssted
+# - Lagringsmappe
+# - Lagringsplass
 #: data/org.gnome.TextEditor.gschema.xml:137
+#, fuzzy
 msgid "Last Save Directory"
-msgstr ""
+msgstr "Siste lagringssted"
 
 #: data/org.gnome.TextEditor.gschema.xml:138
+#, fuzzy
 msgid "The directory last used in a save or save-as dialog."
-msgstr ""
+msgstr "Sist brukte lagringssted brukt i lagringsdialogen."
 
 #: data/org.gnome.TextEditor.gschema.xml:142
 msgid "Draw Spaces"
-msgstr ""
+msgstr "Tegn mellomrom"
 
 #: data/org.gnome.TextEditor.gschema.xml:143
+#, fuzzy
 msgid "The various types of spaces to draw in the editor."
-msgstr ""
+msgstr "De ulike typene mellomrom for visning i editoren."
 
 #: data/org.gnome.TextEditor.gschema.xml:147
 msgid "Enable Snippets"
-msgstr ""
+msgstr "Aktiver utdrag"
 
 #: data/org.gnome.TextEditor.gschema.xml:148
+#, fuzzy
 msgid ""
 "Enable the use of snippets registered with GtkSourceView from within the "
 "editor."
 msgstr ""
+"Aktiver bruken av utdrag registrert med GtkSourceView fra selve editoren."
 
 #: data/org.gnome.TextEditor.gschema.xml:153
 msgid "Line Height"
-msgstr ""
+msgstr "Linjehøyde"
 
 #: data/org.gnome.TextEditor.gschema.xml:154
 msgid "The line height to use for the selected font."
-msgstr ""
+msgstr "Linjehøyden som skal brukes for den valgte skrifttypen."
 
 #: data/org.gnome.TextEditor.gschema.xml:158
 msgid "Highlight Matching Brackets"
-msgstr ""
+msgstr "Fremhev matchende parenteser"
 
 #: data/org.gnome.TextEditor.gschema.xml:159
 msgid "Highlight matching brackets and braces."
-msgstr ""
+msgstr "Fremhev matchende parenteser og krøllparenteser."
 
 #: src/editor-animation.c:1038
-#, c-format
+#, fuzzy, c-format
 msgid "Failed to find property %s in %s"
-msgstr ""
+msgstr "Fant ikke egenskapen %s i %s"
 
 #: src/editor-animation.c:1047
 #, c-format
 msgid "Failed to retrieve va_list value: %s"
-msgstr ""
+msgstr "Kan ikke hente va_list verdien: %s"
 
 #: src/editor-application-actions.c:214
+#, fuzzy
 msgid "translator-credits"
-msgstr ""
+msgstr "kreditering oversettelse"
 
 #: src/editor-application.c:525
 msgid "Standard input was requested multiple times. Ignoring request."
-msgstr ""
+msgstr "Standard input ble forespurt flere ganger. Ignorerer forespørsel."
 
 #: src/editor-application.c:529
 msgid "Standard input is not supported on this platform. Ignoring request."
 msgstr ""
+"Standard input støttes ikke på denne platformen. Ignorerer forespørsel."
 
 #: src/editor-application.c:632
 msgid "Bugs may be reported at:"
-msgstr ""
+msgstr "Feil kan rapporteres til:"
 
 #: src/editor-application.c:634
+#, fuzzy
 msgid "[FILES…]"
-msgstr ""
+msgstr "[FILES…]"
 
 #: src/editor-application.c:748
 msgid "Do not restore session at startup"
-msgstr ""
+msgstr "Ikke gjenopprett økt ved oppstart"
 
 #: src/editor-application.c:749
 msgid "Open provided files in a new window"
-msgstr ""
+msgstr "Åpne medfølgende filer i et nytt vindu"
 
 #: src/editor-application.c:750
 msgid "Run a new instance of Text Editor (implies --ignore-session)"
-msgstr ""
+msgstr "Start ny forekomst av programmet (innebærer --ignore-session)"
 
 #: src/editor-application.c:751
 msgid "Print version information and exit"
-msgstr ""
+msgstr "Print versjonsinformasjon og avslutt"
 
 #: src/editor-document.c:2122
+#, fuzzy
 msgid "[Read-Only]"
-msgstr ""
+msgstr "[Read-Only]"
 
 #: src/editor-document.c:2420 src/editor-page.c:1070
 #: src/editor-sidebar-item.c:511
 msgid "New Document"
-msgstr ""
+msgstr "Nytt dokument"
 
 #: src/editor-file-manager.c:99
 msgid "File path is NULL"
-msgstr ""
+msgstr "Filplasseringen er NULL"
 
+# Finnes det et norskt uttrykk for "wide char"?
+# Slik jeg forstår det så er det snakk om karaktertyper som har størrelse større enn 8 bit (1 byte).
 #: src/editor-file-manager.c:108 src/editor-file-manager.c:119
+#, fuzzy
 msgid "Error converting UTF-8 filename to wide char"
-msgstr ""
+msgstr "Feil ved konvertering av UTF-8-filnavn til \"wide char\""
 
 #: src/editor-file-manager.c:127
 msgid "ILCreateFromPath() failed"
-msgstr ""
+msgstr "ILCreateFromPath() mislyktes"
 
 #: src/editor-file-manager.c:164
 #, c-format
 msgid "Cannot convert “%s” into a valid NSURL."
-msgstr ""
+msgstr "Kan ikke konvertere \"%s\" til en gyldig NSURL."
 
 #: src/editor-info-bar.c:76
 msgid "_Discard Changes and Reload"
-msgstr ""
+msgstr "_Forkast endringer og last inn på nytt"
 
 #: src/editor-info-bar.c:79
 msgid "File Has Changed on Disk"
-msgstr ""
+msgstr "Filen har blitt endret på disken"
 
 #: src/editor-info-bar.c:80
 msgid "The file has been changed by another program."
-msgstr ""
+msgstr "Filen har blitt endret av et annet program."
 
 #: src/editor-info-bar.c:89 src/editor-window.ui:217
+#, fuzzy
 msgid "Save _As…"
-msgstr ""
+msgstr "Lagre _som…"
 
 #: src/editor-info-bar.c:91 src/editor-info-bar.ui:63
 msgid "Document Restored"
-msgstr ""
+msgstr "Dokumentet er gjenopprettet"
 
 #: src/editor-info-bar.c:92 src/editor-info-bar.ui:73
 msgid "Unsaved document has been restored."
-msgstr ""
+msgstr "Ulagret dokument ble gjenopprettet."
 
 #: src/editor-info-bar.c:98 src/editor-info-bar.ui:87
 msgid "_Save…"
-msgstr ""
+msgstr "_Lagre…"
 
 #: src/editor-info-bar.c:100 src/editor-info-bar.ui:81
 msgid "_Discard…"
-msgstr ""
+msgstr "_Forkast…"
 
 #: src/editor-info-bar.c:102
 msgid "Draft Changes Restored"
